@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="e26_jDUHIy-F_4PyKftO2NuanTX-RL7bm2nFY7TQotY" />
+<title>GapScout</title>
+<meta name="description" content="GapScout is a private market-research tool that estimates whether a small software business in a given market could be viable, using public data sources.">
+<style>
+  body { font-family: Georgia, "Times New Roman", serif; max-width: 42rem; margin: 3rem auto; padding: 0 1.25rem; line-height: 1.6; color: #222; background: #fff; }
+  h1 { font-size: 2rem; margin-bottom: 0.25rem; }
+  .tag { color: #666; margin-top: 0; }
+  h2 { font-size: 1.2rem; margin-top: 2rem; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #ddd; color: #666; font-size: 0.9rem; }
+  a { color: #1a4f8a; }
+</style>
+</head>
+<body>
+<h1>GapScout</h1>
+<p class="tag">A market-research tool for one person.</p>
+
+<h2>What it is</h2>
+<p>GapScout is a private, single-user application. You type in a broad market, and it narrows that market to a niche, proposes a product and a price, estimates the share of customers the product could win, works out what acquiring those customers would cost, projects five years of revenue and profit, and reports a confidence level that the niche is viable.</p>
+
+<h2>How it works</h2>
+<p>Every number in the result is drawn from a named source, dated, and shown with a range. The sources are free, public, official datasets: United States Census business statistics, Bureau of Labor Statistics wage data, government procurement records, state licensing files, and similar. Where the tool uses Google Ads data, it reads keyword search-volume and cost-per-click estimates for the operator's own Google Ads account; it never creates, changes, or runs advertising campaigns.</p>
+
+<h2>Who uses it</h2>
+<p>GapScout is run by its developer for his own market research. It is not offered to the public, has no user accounts, and is not for sale.</p>
+
+<h2>Purpose of the application</h2>
+<p>GapScout has one purpose: to estimate whether a small software business serving a given market could be viable. It produces a written analysis for its operator — market size, demand evidence, a proposed product and price, acquisition cost, five-year projections, and a confidence level — and nothing else. It does not generate images, audio, or video; it does not create content about any person; and it does not provide any service to third parties.</p>
+
+<h2>How GapScout uses Google APIs</h2>
+<p>GapScout uses exactly one Google API, the <strong>Google Ads API</strong>, under the scope <code>https://www.googleapis.com/auth/adwords</code>, with authorization granted by the operator for the operator's own Google Ads account. It uses that access for one thing: reading Keyword Planner estimates (search volume, competition, and cost-per-click) for keywords the operator enters, so that paid-search demand and acquisition cost can be estimated inside the operator's market analysis. GapScout does not create, edit, enable, pause, or delete campaigns, ad groups, ads, keywords, budgets, or account settings, and does not read campaign performance, billing, audience, or customer data. Data obtained from Google is stored only on the operator's computer, is not shared with anyone, is not used for advertising or profiling, and is not used to train or improve any artificial-intelligence or machine-learning model. GapScout's use of Google APIs complies with the <a href="https://developers.google.com/terms">Google APIs Terms of Service</a> and the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Full details are in the <a href="privacy.html">privacy policy</a>.</p>
+
+<h2>Contact</h2>
+<p>Email: <a href="mailto:gapscoutme@gmail.com">gapscoutme@gmail.com</a></p>
+
+<footer>
+  <a href="privacy.html">Privacy policy</a>
+</footer>
+</body>
+</html>
